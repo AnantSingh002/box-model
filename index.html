@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box-1{
+            height: 70vh;
+            width: 70vw;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 5%;
+           
+        }
+
+        .box-2 {
+            border:2px solid red;
+            height: 10%;
+            width: 90%;
+            margin: auto;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .box-3 {
+            border: 2px solid red;
+            height: 10%;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .box-4 {
+            border: 2px solid red;
+            height: 40%;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+           gap: 0px;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .box-4> div{
+            border: 2px solid red;
+            height: 40%;
+            width: 90%;
+            margin: auto;
+            /* border-bottom: 5px; */
+
+        }
+
+        .box-5 {
+            /* border: 1px solid maroon; */
+            height: 20%;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            
+        }
+
+        span{
+            border: 2px solid red;
+            width: 2%;
+            height: 60%;
+            padding: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="box-1">
+    <div class="box-2">
+        <h1>I'm a box</h1>
+    </div>
+    <div class="box-3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est consequatur modi praesentium impedit vel. Iusto modi similique cupiditate eaque quas fugiat quod reiciendis ea. Modi ipsum harum cumque magnam eos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque minus obcaecati! Saepe temporibus perferendis asperiores ipsum mollitia laudantium non.</p>
+    </div>
+    <div class="box-4">
+        <div>this list is a box</div>
+        <div>all items in it are boxes</div>
+    </div>
+    <div class="box-5">
+        <p>even <span>button</span> and <span><a href="#">link</a></span> are boxes</p>
+    </div>
+</div>
+</body>
+</html>
